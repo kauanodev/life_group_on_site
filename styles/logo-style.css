@@ -1,0 +1,9 @@
+@import url(animations-style.css);
+div #logo img{
+    animation: floating 5s ease infinite;
+    width: 40%;
+    height: auto;
+    margin: 50px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0);
+    border-radius: 125px;
+}

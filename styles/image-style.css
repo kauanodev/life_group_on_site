@@ -1,0 +1,38 @@
+@import url(animations-style.css);
+ 
+ img {
+    animation: floating 5s ease infinite;
+    width: 80%;
+    height: 70%;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0,0.75);
+ 
+}
+ img .photos-group{
+    animation: floating 5s ease infinite;
+    width: 80%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0,0.75);
+ 
+}
+
+
+
+  img .photos-group.show{
+    animation: show-to-right 5s ease-in-out;
+    width: 80%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0,0.75);
+ 
+}
+
+.leader img {
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0,0.75);
+ 
+}
+

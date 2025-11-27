@@ -1,0 +1,27 @@
+@keyframes floating {
+     0% {
+         transform: translateY(0);
+         box-shadow: 0 10px 10px rgba(0, 0, 0,0.75);
+     }
+     50% {
+         transform: translateY(-10px);
+         box-shadow: 0 20px 10px rgba(0, 0, 0,0.75);
+     }
+     100% {
+         transform: translateY(0);
+         box-shadow: 0 10px 10px rgba(0, 0, 0,0.75);
+     }
+ }
+
+
+
+ @keyframes show-to-right {
+        0% {
+            opacity: 0;
+            transform: translateX(-100%);
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+ }

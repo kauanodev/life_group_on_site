@@ -1,0 +1,15 @@
+#map {
+    height: 80%px;
+    width: 40%;
+    align-content: center;
+    justify-content: center;
+    border: solid 4px #2a2a2e;
+    border-radius: 10px;
+    margin-right: 20px;
+    box-shadow: 0 0px 0px rgba(46, 47, 51, 0.75);
+}
+
+#map:hover {
+    animation: floating 5s ease infinite;
+
+}

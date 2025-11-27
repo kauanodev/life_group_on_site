@@ -1,0 +1,29 @@
+@import url(styles-global.css);
+div .slots {
+    margin: 5%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0,0.75);
+
+
+}
+
+div .slots {
+    display: flex;
+    flex-direction: column;
+    background-color:var(--slots-color);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px;
+    opacity: 0;
+    transform: translateY(40px);
+    transform: translateX(40px);
+    transition: 0.6s ease-in-out;
+    height: 20%;
+}
+
+
+div .slots.show {
+    opacity: 1;
+    transform: translateY(0);
+    transform: translateX(0);
+    height: 20%;
+}

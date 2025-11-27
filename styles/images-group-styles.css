@@ -1,0 +1,10 @@
+
+@import url(image-style.css);
+
+.images-group{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    justify-items: center;
+}
+
